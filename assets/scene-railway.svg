@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse"><stop stop-color="#232323"/><stop offset="1" stop-color="#101010"/></linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0v56" stroke="#fff" stroke-opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="560" fill="url(#bg)"/><rect width="1200" height="560" fill="url(#grid)"/>
+  <path d="M0 420h1200v140H0z" fill="#141414"/>
+  <path d="M100 372h1000v18H100z" fill="#D5313B"/><path d="M100 399h1000v8H100z" fill="#D8D2CA"/>
+  <path d="m190 560 156-161h29L258 560h-68Zm194 0 157-161h27L453 560h-69Zm194 0 156-161h27L647 560h-69Zm194 0 156-161h27L841 560h-69Zm194 0 156-161h27l-156 161h-27Z" fill="#66615C"/>
+  <path d="M318 221h567v151H318z" fill="#2A2928" stroke="#8B827A" stroke-width="2"/><path d="M283 215h639v16H283z" fill="#D5313B"/>
+  <path d="M356 231v141m95-141v141m95-141v141m95-141v141m95-141v141m95-141v141" stroke="#79736D" stroke-width="3"/>
+  <path d="M375 265h77v69h-77zm95 0h77v69h-77zm95 0h77v69h-77zm95 0h77v69h-77zm95 0h77v69h-77z" fill="#121212" stroke="#4E4A46"/>
+  <path d="M120 367v-90h155v90M930 367v-90h155v90" fill="#1B1B1B" stroke="#5D5751" stroke-width="2"/>
+  <path d="M138 296h53v41h-53zm71 0h48v41h-48zm739 0h53v41h-53zm71 0h48v41h-48z" fill="#D5313B" fill-opacity=".55"/>
+  <path d="M542 188h114v26H542z" fill="#D5313B"/>
+  <text x="564" y="206" fill="#FFF" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">STATION</text>
+  <text x="54" y="57" fill="#F4F2EE" fill-opacity=".8" font-family="Arial,sans-serif" font-size="14" letter-spacing="5">RAILWAY / CONCEPT STUDY</text>
+  <text x="54" y="83" fill="#D5313B" font-family="Arial,sans-serif" font-size="9" letter-spacing="3">ORIGINAL ILLUSTRATION · NOT A GAME SCREENSHOT</text>
+</svg>
