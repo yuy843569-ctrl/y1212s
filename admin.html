@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a0e">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="UMEDA DEVELOPMENT お知らせ管理">
+  <link rel="stylesheet" href="styles.css">
+  <title>お知らせ管理 — UMEDA DEVELOPMENT</title>
+</head>
+<body class="inner-page admin-page">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="UMEDA DEVELOPMENT ホーム">
+      <img src="assets/brand-mark.svg" alt="" class="brand-mark">
+      <span class="brand-word">UMEDA<br><b>DEVELOPMENT</b></span>
+      <span class="brand-divider" aria-hidden="true"></span>
+      <span class="brand-caption">OFFICIAL WEBSITE</span>
+    </a>
+    <a class="header-emblem" href="index.html" aria-label="ホームへ"><span></span><span></span><span></span><span></span></a>
+  </header>
+  <main id="main">
+    <section class="page-banner page-banner-news">
+      <img src="assets/city-block.png" alt="">
+      <div class="page-banner-shade"></div>
+      <div class="page-banner-copy"><p>ADMINISTRATION</p><h1>NEWS</h1><strong>お知らせ管理</strong></div>
+    </section>
+    <section class="detail-content admin-content">
+      <p class="detail-kicker">UMEDA DEVELOPMENT</p>
+      <h2>最新のお知らせを投稿。</h2>
+      <p class="admin-intro">投稿した内容はNEWSページとホームの最新情報に表示されます。</p>
+      <form id="news-admin-form" class="admin-form" autocomplete="off">
+        <label>管理者PIN
+          <input name="pin" type="password" inputmode="numeric" autocomplete="off" required maxlength="64" placeholder="管理者PINを入力">
+        </label>
+        <div class="admin-form-row">
+          <label>カテゴリ
+            <select name="category">
+              <option>お知らせ</option>
+              <option>制作情報</option>
+              <option>配布情報</option>
+            </select>
+          </label>
+          <label>タイトル
+            <input name="title" type="text" required maxlength="100" placeholder="例：ワールドを更新しました">
+          </label>
+        </div>
+        <label>本文
+          <textarea name="body" required maxlength="3000" rows="6" placeholder="お知らせの内容を入力してください"></textarea>
+        </label>
+        <div class="admin-submit-row">
+          <button type="submit" class="hero-button">お知らせを投稿 <span aria-hidden="true">›</span></button>
+          <p id="admin-status" class="admin-status" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+      <p class="admin-note">この管理ページはVercelへ公開後に利用できます。PINはブラウザーの入力欄にだけ入力し、ページ内には保存されません。</p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html" aria-label="UMEDA DEVELOPMENT ホーム"><img src="assets/brand-mark.svg" alt="" class="brand-mark"><span class="brand-word">UMEDA<br><b>DEVELOPMENT</b></span></a>
+    <span class="footer-divider"></span><p>Rebuilding Osaka. <span>—</span> Minecraft City Project</p>
+    <small>© <span id="year">2026</span> UMEDA DEVELOPMENT</small>
+  </footer>
+  <script src="site.js" defer></script>
+  <script src="admin.js" defer></script>
+</body>
+</html>
